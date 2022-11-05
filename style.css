@@ -20,9 +20,7 @@ body{
     margin: auto;
     
     box-shadow: 5px 5px 5px rgba(52, 52, 52, 0.1),
-    /* 10px 10px 10px rgba(52, 52, 52, 0.1), */
-    /* 20px 20px 10px rgba(52, 52, 52, 0.1), */
-    30px 30px 10px rgba(52, 52, 52, 0.1);
+    15px 15px 10px rgba(52, 52, 52, 0.1) ;
 
     
 }
@@ -36,37 +34,45 @@ body{
 .detail{
     border: 1px solid rgb(202, 199, 199);
     width: 400px;
-    height: 110px;
-    margin: auto;
+    height: 100px;
+    margin:  0px auto;
     border-radius:8px ;
 
     
 }
 .line-vt{
-    height: 30px;
-    border: 0.5px solid rgb(229, 226, 226);
+    border-right: 1px solid  gainsboro;
+    
 }
 .detail-1{
     font-size: 11px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    padding: 0%;
+    margin: 0px 10px;
+    
    
 }
+.CHECK{
+   
+   margin: 10px 5px;
+}
+.border-top{
+    border-top: 1px solid gainsboro;
+}
 .detail-2{
-    padding: 0%;
+    
     font-size: 11px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    margin: 0 10px;
-    margin-bottom: 40px;
+    margin: 0px 15px ;
+    
 }
 
 .image{
-    margin: 20px 20px;
+ margin: 20px 15px;
+    
     width: 15px;
 }
 /* .line-1{
